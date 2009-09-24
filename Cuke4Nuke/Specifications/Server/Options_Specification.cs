@@ -102,7 +102,7 @@ namespace Cuke4Nuke.Specifications.Server
 
         [Test]
         [Explicit("Supports exploratory testing of options")]
-        public void Write_should_write_options_label_lin()
+        public void Write_should_write_options_label_to_Console()
         {
             var options = new Options();
             options.Write(Console.Out);
